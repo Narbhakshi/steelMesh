@@ -1,0 +1,33 @@
+{
+    "displayName": "steelmesh",
+    "widgetId": "steelmesh",
+    "widgetDescription": "Please refer README.md file",
+    "topicName": "steelmesh",
+    "behaviorParams": [
+      {
+        "groupId": "",
+        "itemId": "inlineMessages",
+        "displayName": "Inline messages",
+        "type": "boolean",
+        "description": "Determine whether to display inline messages",
+        "defaultValue": false
+      }
+    ],
+    "content": [
+      {
+        "itemId": "welcome",
+        "description": "Welcome",
+        "value": "Welcome from PropsProvider"
+      }
+    ],
+    "stateParams": [
+      {
+        "itemId": "",
+        "displayName": "",
+        "type": "boolean",
+        "description": "",
+        "defaultValue": ""
+      }
+    ]
+  }
+  
