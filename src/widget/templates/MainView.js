@@ -11,7 +11,7 @@ class MainView extends Component {
         return (
         <div>
             <header className="App-header">
-                <h3>Welcome</h3>
+                <h3>You have came to the right place</h3>
                 {this.props.msg.defaultMessage}
             </header>
         </div>);
