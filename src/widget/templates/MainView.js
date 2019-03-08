@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Sidebar from './Sidebar';
 
 class MainView extends Component {
     constructor (props) {
@@ -9,11 +12,16 @@ class MainView extends Component {
     }
     render () {
         return (
-        <div>
-            <header className="App-header">
-                <h3>You have came to the right place</h3>
+        <div className="main-view-container">
+            <Header />
+            <div className="App-header">
+                <h3>You have come to the right place</h3>
                 {this.props.msg.defaultMessage}
-            </header>
+            </div>
+            <div className="length">
+            </div>
+            <Sidebar />
+            <Footer />
         </div>);
     }
 }

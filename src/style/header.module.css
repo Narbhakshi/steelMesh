@@ -1,0 +1,106 @@
+.App {
+    text-align: center;
+    background-image: url("../assets/pillar.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;}
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .nav-local {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 52px;
+    min-width: 1024px;
+    z-index: 9997;
+  }
+  .nav-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: 1;
+  }
+  
+  .background{
+    background-color: rgba(0,0,0,0.15);
+  }
+  div[class*="header_background"]::before{
+    content: ‘’;
+    width: 101%;
+    height: 75px;
+    background: inherit; 
+    position: absolute;
+    left: -25px;  
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+    filter: blur(10px);
+   }
+  .content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+  }
+  .title {
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: default;
+    display: block;
+    float: left;
+    margin: 14px 0 -14px;
+    padding: 0;
+    height: 52px;
+    white-space: nowrap;
+  }
+  .menu{
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+      float: right;
+      margin-top: 0;
+      padding: 1rem !important;
+  }
+  .length{
+    height: 1200px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
