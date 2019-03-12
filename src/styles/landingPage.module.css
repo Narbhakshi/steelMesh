@@ -2,3 +2,7 @@
     height: 928px;
     background-color: rgb(253, 144, 41); 
 }
+.title{
+    color: #edeaf5;
+    font-family: 'Sniglet', semi-bold;
+}
