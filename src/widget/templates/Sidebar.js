@@ -1,9 +1,19 @@
 import React from 'react';
-import styles from '../../style/sidebar.module.css';
+import styles from '../../styles/sidebar.module.css';
 
 function Sidebar (props) {
     const list =  (props) => {
-        return "Pages";
+        return (
+            <div>
+                <div className="introduction">
+                        <i className="material-icons">
+                            home
+                        </i>
+                </div>
+                <div className="page2">f</div>
+                <div className="contact">f</div>
+            </div>
+        );
     };
     const social = <a href="#">Connect</a>;
     return (

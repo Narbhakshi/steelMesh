@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import propsProvider from './PropsProvider';
-import '../style/App.css';
+import '../styles/App.css';
 import MainView from './templates/MainView';
 
 class App extends Component {

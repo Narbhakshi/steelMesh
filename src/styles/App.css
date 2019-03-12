@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("../assets/pillar.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;}
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

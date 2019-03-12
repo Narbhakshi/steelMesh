@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
+import LandingPage from '../pages/LandingPage';
+import Page1 from '../pages/Page1';
+import Contact from '../pages/Contact';
 
 class MainView extends Component {
     constructor (props) {
@@ -13,7 +16,10 @@ class MainView extends Component {
     render () {
         return (
         <div className="main-view-container">
-            <Header />
+            {/* <Header /> */}
+            <LandingPage />
+            <Page1 />
+            <Contact />
             <div className="App-header">
                 <h3>You have come to the right place</h3>
                 {this.props.msg.defaultMessage}
