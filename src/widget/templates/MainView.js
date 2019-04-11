@@ -31,5 +31,5 @@ class MainView extends Component {
         </div>);
     }
 }
-
+//some message to be removed later
 export default MainView;
